@@ -16,6 +16,7 @@
     --spotify: #1DB954;
     --youtube: #FF0000;
     --hotmart: #F04E23;
+    --magnetico: #00d2ff;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -216,10 +217,13 @@
   .card-yt::before { background: var(--youtube); }
   .card-sp::before { background: var(--spotify); }
   .card-hm::before { background: var(--hotmart); }
+  .card-mg::before { background: var(--magnetico); }
   .platform-card:hover { transform: translateY(-6px); border-color: var(--surface); }
   .platform-card:hover.card-yt { border-color: rgba(255,0,0,0.3); }
   .platform-card:hover.card-sp { border-color: rgba(29,185,84,0.3); }
   .platform-card:hover.card-hm { border-color: rgba(240,78,35,0.3); }
+  .platform-card:hover.card-mg { border-color: rgba(0,210,255,0.3); }
+  .dot-mg { background: var(--magnetico); }
   .pc-logo { font-size: 2rem; margin-bottom: 1.2rem; }
   .pc-tag {
     font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase;

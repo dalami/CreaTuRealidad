@@ -14,6 +14,6 @@
   // Track click → Spotify
   document.querySelectorAll('.track').forEach(t => {
     t.addEventListener('click', () => {
-      window.open('https://open.spotify.com/intl-es/artist/5FRq9xQwz5xcNYynRS1qYZ?si=hFroTZLnTIGEiL8Wzbau4w', '_blank');
+      window.open('https://open.spotify.com', '_blank');
     });
   });
